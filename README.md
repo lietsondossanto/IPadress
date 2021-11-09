@@ -66,7 +66,6 @@ This project was developed with the following technologies:
 - [nprogress](https://www.npmjs.com/package/nprogress)
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [axios](https://github.com/axios/axios)
-- [Pigeon Maps](https://pigeon-maps.js.org/docs/map/)
 
 ## 🤝 Contributing
 - Fork this repository;
