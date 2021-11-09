@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const WrapperMain = styled.div`
-  width: 100vw;
-  height: 70vh;
+  width: 100%;
+  height: 80vh;
   background-color: ${({ theme }) => theme.colors.second};
 `
 

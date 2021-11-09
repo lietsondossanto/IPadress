@@ -10,13 +10,13 @@ import { WrapperMain, Wrapper, SearchIp } from './styles'
 import { VscChevronRight } from 'react-icons/vsc'
 
 const Dashboard = () => {
-  const [ip, setIp] = useState('0.0.0.0')
-  const [country, setCountry] = useState('zz')
-  const [region, setRegion] = useState('zz')
-  const [city, setCity] = useState('zz')
-  const [lat, setLat] = useState(0)
-  const [lng, setLng] = useState(0)
-  const [isp, setIsp] = useState()
+  const [ip, setIp] = useState('127.0.0.1')
+  const [country, setCountry] = useState('Angola')
+  const [region, setRegion] = useState('Luanda')
+  const [city, setCity] = useState('Luanda')
+  const [lat, setLat] = useState(-8.83833)
+  const [lng, setLng] = useState(13.2344)
+  const [isp, setIsp] = useState('Unitel')
   const [proxy, setProxy] = useState('false')
 
   const [ipAdress, setIpAdress] = useState()
@@ -25,7 +25,8 @@ const Dashboard = () => {
 
   useEffect(async () => {
     NProgress.start()
-    const data = await axios.get(`${url}`)
+    const data = await axios
+      .get(`${url}`)
       .then(response => response.data)
       .catch(error => alert(error))
 
@@ -44,7 +45,8 @@ const Dashboard = () => {
 
   const handleSearchIp = async () => {
     NProgress.start()
-    const data = await axios.get(`${url}&ipAddress=${ipAdress}`)
+    const data = await axios
+      .get(`${url}&ipAddress=${ipAdress}`)
       .then(response => response.data)
       .catch(error => alert(error))
 
@@ -101,7 +103,7 @@ const Dashboard = () => {
 
           <section className="right-side">
             <div className="map">
-              <Map />
+              <Map lat={lat} lng={lng} />
             </div>
           </section>
         </Wrapper>
