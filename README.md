@@ -63,7 +63,7 @@ I created an environment variable in an .env file called `API_IPIFY_KEY` that wi
 
 to add this environment variable to the project just create a `.env.local` file at the root of the project and place the following code inside the `.env.local` file:
 ```
-API_IPIFY_KEY="<YOUR_KEY>"
+NEXT_PUBLIC_API_IPIFY_KEY="<YOUR_KEY>"
 ```
 
 ## <span id="technology">🚀 Technologies</span>
