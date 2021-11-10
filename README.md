@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to TaskManager 👋</h1>
+<h1 align="center">Welcome to IPadress 👋</h1>
 <p align="center">
     <img alt="License" src="https://img.shields.io/badge/Version-1.0-brightgreen">
     <img src="https://img.shields.io/github/last-commit/lietsondossanto/ipadress" alt="last-communit">&nbsp;&nbsp;
@@ -16,7 +16,7 @@
 
 The base technology for creating this project was the [Next](https://reactjs.org/)(`11.1.2`) to develop this project I took about 1 week after some trial and error, This website is fully responsive and can be accessed from any device.<br><br>
 
-> You can access the project without doing git clone on your machine by clicking[aqui](https://ipadress.vercel.app/).
+> This project is already hosted on the vercel website and ready to use, to access the web page click [aqui](https://ipadress.vercel.app/).
 
 ## ✨ preview
 
@@ -53,6 +53,18 @@ execute:
 ```sh
 yarn start
 ```
+<br>
+
+## ⁉️ Details
+
+To create this project I used the `ipify` API to be able to access data such as longitude, latitude, city etc...
+
+I created an environment variable in an .env file called `API_IPIFY_KEY` that will store my `ipify` API key
+
+to add this environment variable to the project just create a `.env.local` file at the root of the project and place the following code inside the `.env.local` file:
+```
+API_IPIFY_KEY="<YOUR_KEY>"
+```
 
 ## <span id="technology">🚀 Technologies</span>
 
@@ -66,6 +78,7 @@ This project was developed with the following technologies:
 - [nprogress](https://www.npmjs.com/package/nprogress)
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [axios](https://github.com/axios/axios)
+- [Pigeon Maps](https://pigeon-maps.js.org/)
 
 ## 🤝 Contributing
 - Fork this repository;

@@ -21,12 +21,12 @@ const Dashboard = () => {
 
   const [ipAdress, setIpAdress] = useState()
 
-  const url = 'https://geo.ipify.org/api/v1?apiKey=at_iOHd1Rb5BhcS6yCHCK2pC2Y15iYCW'
+  const url = `https://geo.ipify.org/api/v2/country,city,vpn?apiKey=${process.env.NEXT_PUBLIC_API_IPIFY_KEY}`
 
   useEffect(async () => {
     NProgress.start()
-    const data = await axios
-      .get(`${url}`)
+    const data = await api
+      .get(``)
       .then(response => response.data)
       .catch(error => alert(error))
 
