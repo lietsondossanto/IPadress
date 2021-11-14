@@ -1,8 +1,15 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.header`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+`
+
+export const MenuMain = styled.div `
   width: 100%;
-  height: 3.60rem;
+  height: 5rem;
   background-color: ${({ theme }) => theme.colors.primary};
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
 
@@ -18,6 +25,22 @@ export const Wrapper = styled.header`
       color: ${({ theme }) => theme.colors.background};
       text-decoration: none;
       font-size: 1.90rem;
+    }
+  }
+`
+
+export const MenuInfo = styled.div`
+  width: 100%;
+  height: 3rem;
+  background-color: ${({ theme }) => theme.colors.textPrimary};
+  color: ${({ theme }) => theme.colors.background};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    span {
+      color: red;
     }
   }
 `

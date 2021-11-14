@@ -35,7 +35,7 @@ const Footer = () => {
         </ul>
 
         <div className="description">
-          <h1>ipadress.net</h1>
+          <h1>IPadress</h1>
           <p>
             Preocupamo-nos com a sua privacidade. Direitos Reservados &copy;
             2021

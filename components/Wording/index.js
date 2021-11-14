@@ -81,12 +81,11 @@ const Wording = () => {
                 proteção no mundo digital.
               </p>
               <p>
-                Nest post eu não vou dizer o passo á passo para ficar anonimo
-                mas vou recomentar algumas ferramentas que podem o ajudar, as
-                ferramentas que eu recomendo usar para navegar anonimo são: Tor
-                Browser, Proxys, VPNs, e se estiver no linux pode usar também
-                ferramentas como anonsurf, ou também pode usar distros linux
-                como Whoonix.
+                Use uma VPN (Virtual Private Network - Rede virtual privada).
+                Uma VPN criptografa tudo o que você faz na internet, mantendo
+                seu tráfego quase que anônimo. A regra geral de uso é, ao usar
+                um serviço consolidado de VPN, toda a sua atividade online
+                permanecerá privada.
               </p>
             </div>
 
