@@ -24,7 +24,7 @@ Home page
 
 <p align="center">
   <img width="700" align="center" src="./src/assets/img/img.png" alt="demo"/>
-</p>
+</p><br>
 
 ## <span id="installation">👨‍💻 Quick Start</span>
 
@@ -57,14 +57,33 @@ yarn start
 
 ## ⁉️ Details
 
-To create this project I used the `ipify` API to be able to access data such as longitude, latitude, city etc...
+To create this project I used the `ipdata` API to be able to access data such as longitude, latitude, city etc...
 
-I created an environment variable in an .env file called `API_IPIFY_KEY` that will store my `ipify` API key
+I created an environment variable in an .env file called `API_IPDATA_KEY` that will store my `ipdata` API key
 
-to add this environment variable to the project just create a `.env.local` file at the root of the project and place the following code inside the `.env.local` file:
+To add this environment variable to the project just create a `.env` file at the root of the project and place the following code inside the `.env` file:
 ```
-NEXT_PUBLIC_API_IPIFY_KEY="<YOUR_KEY>"
+NEXT_PUBLIC_API_IPDATA_KEY="<YOUR_KEY>"
 ```
+<br>
+
+## 😤 difficulties
+
+Ao desenvolver este projeto eu tive algumas dificuldades ao criar o front-end e também ao encontrar as APIs certas para usar neste web saite.
+
+A minha maior dificuldade ao desenvolver esta web page foi encontrar as APIs certas, só para desenvolver este web site eu tive que testar em média 6 APIs que são:
+
+- [React_Leafpad]()
+- [Ipify]()
+- [Google-maps]()
+- [Pigeon]()
+- [ipdata]()
+- [ipStack]()
+
+Todas elas tinham vantagens e desvantagem eu sempre acabava por ter problemas aoo utilizar estas APIs.
+
+Também tive um pouco de dificuldade para achar a paleta de de cores ideial,
+a paleta de cores que estou a usar neste web site foi sorteada no site [coolors](https://coolors.co/).
 
 ## <span id="technology">🚀 Technologies</span>
 
