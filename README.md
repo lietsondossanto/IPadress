@@ -12,7 +12,7 @@
     <a href="#license">License</a>
 </p><br>
 
-<span id="project">`ipaddres`</span> is an IP locator ie it tracks any device by the ip address and returns data with the country where this ip address is located the province(state), city, longitude, latitude, ip provider(isp), it is integrated with a map (Google-maps) showing the exact location of this address or device on this web page contains some posts about ip addresses and also some tips about anonymity on the internet.
+<span id="project">`ipaddres`</span> is an IP locator ie it tracks any device by the ip address and returns data with the country where this ip address is located the province(state), city, longitude, latitude, ip provider(isp), it is integrated with a map showing the exact location of this address or device on this web page contains some posts about ip addresses and also some tips about anonymity on the internet.
 
 The base technology for creating this project was the [Next](https://reactjs.org/)(`11.1.2`) to develop this project I took about 1 week after some trial and error, This website is fully responsive and can be accessed from any device.<br><br>
 
