@@ -4,8 +4,6 @@ import { Map } from './../index'
 
 import { WrapperMain, Wrapper } from './styles'
 
-import world from './../../src/assets/img/world1.svg'
-
 const Dashboard = ({ ip, country, region, city, lat, lng, asn, timezone, emoji_flag }) => {
   return (
     <>
@@ -29,7 +27,7 @@ const Dashboard = ({ ip, country, region, city, lat, lng, asn, timezone, emoji_f
                 <h2>
                   Cidade: <span>{city}</span>
                 </h2>
-                <h2>
+                <h2 className="irrelevante">
                   timezone: <span>{timezone}</span>
                 </h2>
                 <h2 className="irrelevante">

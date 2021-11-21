@@ -5,6 +5,7 @@ export const Wrapper = styled.header`
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 `
 
 export const MenuMain = styled.div `
@@ -27,6 +28,10 @@ export const MenuMain = styled.div `
       font-size: 1.90rem;
     }
   }
+
+  @media (max-width: 650px) {
+    height: 4rem;
+  }
 `
 
 export const MenuInfo = styled.div`
@@ -41,6 +46,24 @@ export const MenuInfo = styled.div`
   p {
     span {
       color: red;
+    }
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .irrelevante {
+      display: none;
+    }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   }
 `

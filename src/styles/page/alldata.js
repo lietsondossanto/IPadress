@@ -1,8 +1,13 @@
 import styled from 'styled-components'
 
+import world from './../../assets/img/world1.svg'
+
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
+
+  background-image: url(${world}) no-repeat;
+  background-size: 1rem;
 
   header{
     background-color: ${({ theme }) => theme.colors.primary};

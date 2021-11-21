@@ -32,19 +32,24 @@ export default function Home() {
       </Head>
 
       <nav>
-        <Menu ip={ip} lat={lat} lng={lng} emoji_flag={emoji_flag} />
+        <Menu
+          ip={ip || 'Not found'}
+          lat={lat || 'Not found'}
+          lng={lng || 'Not found'}
+          emoji_flag={emoji_flag || 'Not found'}
+        />
       </nav>
 
       <main>
         <Dashboard
-          ip={ip}
-          country={country}
+          ip={ip || 'Not found'}
+          country={country || 'Not found'}
           region={region || 'Not found'}
           city={city || 'Not found'}
-          lat={lat}
-          lng={lng}
-          asn={asn}
-          timezone={timezone}
+          lat={lat || 'Not found'}
+          lng={lng || 'Not found'}
+          asn={asn || 'Not found'}
+          timezone={timezone || 'Not found'}
           emoji_flag={emoji_flag}
         />
         <Input setIpAdress={setIpAdress} handleSearchIp={handleSearchIp} />

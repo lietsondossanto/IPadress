@@ -7,7 +7,7 @@ export const Wrapper = styled.footer`
   align-items: center;
   justify-content: space-around;
   background-color: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.textPrimary};
+  color: ${({ theme }) => theme.colors.second};
 
   ul {
     display: flex;

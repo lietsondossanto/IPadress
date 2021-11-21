@@ -9,7 +9,7 @@ const Menu = ({ ip, emoji_flag, lat, lng }) => {
       <Wrapper>
         <MenuInfo>
           <p>Seu IP: <span>{ip}</span></p>
-          <p>País: <span>{emoji_flag}</span></p>
+          <p className="irrelevante">País: <span>{emoji_flag}</span></p>
           <p>Lat: <span>{lat}</span></p>
           <p>Lng: <span>{lng}</span></p>
         </MenuInfo>
