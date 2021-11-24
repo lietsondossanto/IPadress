@@ -16,6 +16,11 @@ export const Wrapper = styled.div`
 
   .left-side {
     width: 40%;
+    min-height: 55%;
+    max-height: 55%;
+    display: flex;
+    align-items: center;
+
 
     .top {
       font-size: 2.2rem;
@@ -43,7 +48,7 @@ export const Wrapper = styled.div`
     }
   }
 
-  @media (max-width: 1645px) {
+  @media (max-width: 1660px) {
     width: 70%;
 
     .left-side {
@@ -70,7 +75,7 @@ export const Wrapper = styled.div`
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     width: 80%;
 
     .left-side {
@@ -97,7 +102,7 @@ export const Wrapper = styled.div`
     }
   }
 
-  @media (max-width: 874px) {
+  @media (max-width: 927px) {
     width: 90%;
 
     .left-side {
@@ -124,7 +129,7 @@ export const Wrapper = styled.div`
     }
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: 710px) {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
